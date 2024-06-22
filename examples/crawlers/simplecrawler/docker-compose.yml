@@ -1,0 +1,7 @@
+version: "3"
+services:
+  crawler:
+    build: ${CRAWLER_DOCKER_DIR}/src
+    shm_size: 2gb
+    volumes:
+      - ${CRAWLER_REPORT_DIR}:/opt/simplecrawler/logs

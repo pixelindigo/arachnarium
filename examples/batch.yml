@@ -1,0 +1,17 @@
+experiments:
+  -
+    crawler: examples/crawlers/simplecrawler
+    app: examples/apps/simplewebapp
+    args: -t 2 http://web/
+  -
+    crawler: examples/crawlers/simplecrawler
+    app: examples/apps/simplewebapp
+    args: -t 2 http://web/
+  -
+    crawler: examples/crawlers/simplecrawler
+    app: examples/apps/simplewebapp
+    args: -t 2 http://web/
+  -
+    crawler: examples/crawlers/simplecrawler
+    app: examples/apps/simplewebapp
+    args: -t 2 http://web/
