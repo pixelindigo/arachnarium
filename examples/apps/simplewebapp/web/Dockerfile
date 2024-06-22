@@ -1,6 +1,6 @@
 FROM python:3.11-alpine
 
-COPY server.py requirements.txt .
+COPY server.py requirements.txt ./
 
 RUN pip install -r requirements.txt
 
